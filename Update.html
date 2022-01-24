@@ -1,0 +1,44 @@
+<html>
+<head>
+    <link rel="icon" href="projecticon.png">
+    <title>
+        SADT - Update
+    </title>
+</head>
+<style>
+    body {
+        background-image: url('projectlogo.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position-x: center;
+        background-position-y: top;
+    }
+</style>
+<body>
+<h2 align="center">Speakeasy Accounting Database Terminal (SADT)</h2>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<p align="center">Update Information:</p>
+<form id="form" align="center" action="Update.php" method="POST">
+    <br>
+    <table border="1" align="center">
+        <tr>
+            <td>Product Name</td>
+            <td>Product ID</td>
+            <td>Product Price</td>
+            <td>Stocks Left</td>
+        </tr>
+        <tr>
+            <td><input name="drinkName" type="text" id="drinkName"></td>
+            <td><input name="id" type="number" id="id"></td>
+            <td><input name="price" type="number" id="price"></td>
+            <td><input name="stocks" type="number" id="stocks"></td>
+        </tr>
+    </table><br><br>
+    <input type="submit" value="Update">
+</form>
+<form action="Inventory.php" align="center">
+    <input type="submit" value="Go Back to Inventory">
+</form>
+
+</body>
+</html>

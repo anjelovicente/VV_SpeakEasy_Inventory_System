@@ -1,0 +1,40 @@
+<html>
+<head>
+    <link rel="icon" href="projecticon.png">
+    <title>
+        SADT - Delete
+    </title>
+</head>
+<style>
+    body {
+        background-image: url('projectlogo.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position-x: center;
+        background-position-y: top;
+    }
+</style>
+<body>
+<h2 align="center">Speakeasy Accounting Database Terminal (SADT)</h2>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<p align="center">Delete Information:</p>
+<form id="form" action="Delete.php" method="POST" align="center">
+    <br>
+    <table border="1" align="center">
+        <tr>
+            <td>Product Name</td>
+            <td>Product ID</td>
+        </tr>
+        <tr>
+            <td><input name="drinkName" type="text" ></td>
+            <td><input name="id" type="number" ></td>
+        </tr>
+    </table><br><br>
+    <input type="submit" value="Delete">
+</form>
+<form action="Inventory.php" align="center">
+    <input type="submit" value="Go Back to Inventory">
+</form>
+
+</body>
+</html>
